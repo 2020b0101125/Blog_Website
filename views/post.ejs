@@ -1,0 +1,10 @@
+<%- include("partials/header")%>
+<% if(locals.data){ %>
+<% console.log(data) %>
+    <h1><%=data.title  %></h1>
+<p><%=data.post  %></p>
+<% } %>
+<%if(locals.error){%>
+<%= error %>
+    <%}%>
+<%- include("partials/footer")%>
