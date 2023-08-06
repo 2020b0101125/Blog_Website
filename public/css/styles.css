@@ -32,6 +32,16 @@ html {
 	height: 60px;
 	background-color: #1abc9c;
 }
+p{
+  display: inline;
+}
+/*
+p {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}*/
 
 .footer p {
 	margin-top: 25px;
